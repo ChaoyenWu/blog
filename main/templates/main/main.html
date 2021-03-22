@@ -1,0 +1,14 @@
+<!doctype html>
+{% load static %}
+<html>
+    <head>
+        <title>My Blog</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{% static 'main/css/main.css' %}"
+    </head>
+    <body>
+        {% include 'main/menu.html' %}
+        <h2>Home</h2>
+        <p>{{like}}</p>
+    </body>
+</html>
